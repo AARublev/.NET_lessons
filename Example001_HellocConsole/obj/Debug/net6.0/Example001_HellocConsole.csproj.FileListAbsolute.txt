@@ -1,0 +1,15 @@
+/Users/alex/lesson_C#/Example001_HellocConsole/bin/Debug/net6.0/Example001_HellocConsole
+/Users/alex/lesson_C#/Example001_HellocConsole/bin/Debug/net6.0/Example001_HellocConsole.deps.json
+/Users/alex/lesson_C#/Example001_HellocConsole/bin/Debug/net6.0/Example001_HellocConsole.runtimeconfig.json
+/Users/alex/lesson_C#/Example001_HellocConsole/bin/Debug/net6.0/Example001_HellocConsole.dll
+/Users/alex/lesson_C#/Example001_HellocConsole/bin/Debug/net6.0/Example001_HellocConsole.pdb
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.csproj.AssemblyReference.cache
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.AssemblyInfoInputs.cache
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.AssemblyInfo.cs
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.csproj.CoreCompileInputs.cache
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.dll
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/refint/Example001_HellocConsole.dll
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.pdb
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/Example001_HellocConsole.genruntimeconfig.cache
+/Users/alex/lesson_C#/Example001_HellocConsole/obj/Debug/net6.0/ref/Example001_HellocConsole.dll
