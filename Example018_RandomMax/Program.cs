@@ -16,5 +16,5 @@ else if (firstDigit > secondDigit)
 
 else 
 {
-    Console.WriteLine($"Максимальная цифра числа {number} ==> {secondDigit}");
+    Console.WriteLine($"Максимальная цифра числа {number} ==> {secondDigit}"); 
 }
