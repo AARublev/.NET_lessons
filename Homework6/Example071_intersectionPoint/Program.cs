@@ -3,11 +3,6 @@
 // значения b1, k1, b2 и k2 задаются пользователем.
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-//2 прямые могут:
-//быть паралельны
-//совподать
-//пересекаться в единственной точке - для этой программы исключающее исловие для первых 2-х случаев
-
 Console.Write("Enter b1: ");
 double b1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter k1: ");
@@ -19,22 +14,12 @@ double k2 = Convert.ToInt32(Console.ReadLine());
 
 void IntersectionPoint(double bb1, double kk1, double bb2, double kk2)
 {
-    double x = 0;
-    double y1 = 0;
-    double y2 = 0;
-
-    x = Math.Round(((bb2 - bb1) / (kk1 - kk2)),1); //Math.Round - т.к. на одном примере(3,2,4,5) очень много цифр вылездл после запятой
-    y1 = Math.Round((kk1 * x + bb1),1);
-    y2 = Math.Round((kk2 * x + bb2),1);
-
-    //коэффициенты для проверки совпадения прямых
-    // double l1 = bb2 / bb1;
-    // double l2 = kk2 / kk1; 
-    //double l3 = y2 / y1; //необязательно
+    double x = Math.Round(((bb2 - bb1) / (kk1 - kk2)),1); //Math.Round - т.к. на одном примере(3,2,4,5) очень много цифр вылездл после запятой
+    double y = Math.Round((kk2 * x + bb2),1);
 
     if (bb1==bb2 && kk1==kk2) Console.WriteLine("straight lines match");
     else if (kk1==kk2 && bb2!=bb1) Console.WriteLine("parallel lines");
-    else Console.WriteLine($"({y1}; {y2})");
+    else Console.WriteLine($"({y}; {y})");
 }
 
 IntersectionPoint(b1, k1, b2, k2);
