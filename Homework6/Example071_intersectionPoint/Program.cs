@@ -23,9 +23,9 @@ void IntersectionPoint(double bb1, double kk1, double bb2, double kk2)
     double y1 = 0;
     double y2 = 0;
 
-    x = (bb2 - bb1) / (kk1 - kk2);
-    y1 = kk1 * x + bb1;
-    y2 = kk2 * x + bb2;
+    x = Math.Round(((bb2 - bb1) / (kk1 - kk2)),1); //Math.Round - т.к. на одном примере(3,2,4,5) очень много цифр вылездл после запятой
+    y1 = Math.Round((kk1 * x + bb1),1);
+    y2 = Math.Round((kk2 * x + bb2),1);
 
     //коэффициенты для проверки совпадения прямых
     // double l1 = bb2 / bb1;
