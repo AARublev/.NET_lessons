@@ -19,7 +19,7 @@ void IntersectionPoint(double bb1, double kk1, double bb2, double kk2)
 
     if (bb1==bb2 && kk1==kk2) Console.WriteLine("straight lines match");
     else if (kk1==kk2 && bb2!=bb1) Console.WriteLine("parallel lines");
-    else Console.WriteLine($"({y}; {y})");
+    else Console.WriteLine($"({x}; {y})");
 }
 
 IntersectionPoint(b1, k1, b2, k2);
