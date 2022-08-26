@@ -33,7 +33,7 @@ void IntersectionPoint(double bb1, double kk1, double bb2, double kk2)
     //double l3 = y2 / y1; //необязательно
 
     if (bb1==bb2 && kk1==kk2) Console.WriteLine("straight lines match");
-    if (kk1==kk2 && bb2!=bb1) Console.WriteLine("parallel lines");
+    else if (kk1==kk2 && bb2!=bb1) Console.WriteLine("parallel lines");
     else Console.WriteLine($"({y1}; {y2})");
 }
 
