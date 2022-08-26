@@ -28,11 +28,11 @@ void IntersectionPoint(double bb1, double kk1, double bb2, double kk2)
     y2 = kk2 * x + bb2;
 
     //коэффициенты для проверки совпадения прямых
-    double l1 = bb2 / bb1;
-    double l2 = kk2 / kk1; 
-    double l3 = y2 / y1; 
+    // double l1 = bb2 / bb1;
+    // double l2 = kk2 / kk1; 
+    //double l3 = y2 / y1; //необязательно
 
-    if (l1==l2 && l1==l3) Console.WriteLine("straight lines match");
+    if (bb1==bb2 && kk1==kk2) Console.WriteLine("straight lines match");
     if (kk1==kk2 && bb2!=bb1) Console.WriteLine("parallel lines");
     else Console.WriteLine($"({y1}; {y2})");
 }
