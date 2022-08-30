@@ -50,7 +50,8 @@ void AverageNumColMatrix(int[,] matrix)
         {
             result += matrix[i, j];
         }
-        result /= matrix.GetLength(1);
+        result /= matrix.GetLength(0);
+        result=Math.Round(result,2);
         if (j < matrix.GetLength(1) - 1) Console.Write($"{result};  ");
         else Console.Write(result);
         result = 0;
